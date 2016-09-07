@@ -18,3 +18,7 @@ for p in products:
 print(total_price)
 
 
+def price_with_tax(self)
+	total = self.price * self.count * self.tax
+	if total > 500:
+		return 0.9 * total
