@@ -12,4 +12,7 @@ products = [Product(price=900, count=2, tax=1.25), Product(price=100, count=1, t
 
 total_price = products[0].price_with_tax() + products[1].price_with_tax()
 
-print(total_price)
+for p in products:
+	print(p.price_with_tax())
+
+
